@@ -17,7 +17,8 @@ the prevention of several adverse effects for internet users.
 # Solution Approach
 
 # DataSet- 
-	We will be using the DataSet of Wikipedia Talk project available on Figshare. The DataSet consists of a sample of over 100k comments with human labels for whether the comment contains a personal attack or aggressive tone.
+  We will be using the DataSet of Wikipedia Talk project available on Figshare. The DataSet consists of a sample of over 100k    comments with human labels for whether the comment contains a personal attack or aggressive tone.
+
   [Labels - "toxic, severe_toxic, obscene, threat, insult, identity_hate"]
 	Dataset source :- 
 		
@@ -25,10 +26,10 @@ the prevention of several adverse effects for internet users.
 		ANNOTATIONS_URL = 'https://ndownloader.figshare.com/files/7554637' 
 
 # Approach -
-	The dataset will be preprocessed by using Stemming, Lemmatising, Stop words removal and regex techniques available in NLTK library.
-	We will also use Count Vectorizer for converting the string of words into a matrix of words.
+ The dataset will be preprocessed by using Stemming, Lemmatising, Stop words removal and regex techniques available in NLTK library.
+  We will also use Count Vectorizer for converting the string of words into a matrix of words.
 	We will build the Multi-label classifier since a particular data can belong to more than one label simultaneously. We will try problem transformation methods like binary relevance method, classifier chain and RAKEL algorithm and Adaptive algorithms like the AdaBoost MH, k-nearest neighbours, Extreme Gradient Boosted (XGboost) decision tree classifier. Advanced Techniques such as stacking and cascading of models will be used for further imporovement of moedls.
-	We will use metrics such as Micro and Macro averaged F1 score, Hamming Loss, Log Loss and Accuracy. 
+  We will use metrics such as Micro and Macro averaged F1 score, Hamming Loss, Log Loss and Accuracy. 
 	The model having high precision and high recall will be selected as the final model.
 	The final model will be deployed on a dummy forum where it's real time application will be shown.
 
