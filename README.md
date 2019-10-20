@@ -20,7 +20,9 @@ the prevention of several adverse effects for internet users.
 # Solution Approach
 
 DataSet- 
-	We will be using the DataSet of Wikipedia Talk project available on Figshare. The DataSet consists of a sample of over 100k comments with human labels for whether the comment contains a personal attack or aggressive tone.[Labels - "toxic, severe_toxic, obscene, threat, insult, identity_hate"]
+	We will be using the DataSet of Wikipedia Talk project available on Figshare. The DataSet consists of a sample of over 100k comments with human labels for whether the comment contains a personal attack or aggressive tone.
+	[Labels - "toxic, severe_toxic, obscene, threat, insult, identity_hate"]
+	
 	Dataset source :- 
 		ANNOTATED_COMMENTS_URL = 'https://ndownloader.figshare.com/files/7554634' 
 		ANNOTATIONS_URL = 'https://ndownloader.figshare.com/files/7554637' 
